@@ -1,0 +1,2 @@
+// Package rating
+package rating

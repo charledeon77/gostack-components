@@ -1,0 +1,38 @@
+gostack-root [gs-component="accordion"] {
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    background: #ffffff;
+    max-width: 500px;
+}
+gostack-root [gs-component="accordion"] .gs-accordion-item {
+    border-bottom: 1px solid #e2e8f0;
+}
+gostack-root [gs-component="accordion"] .gs-accordion-item:last-child {
+    border-bottom: none;
+}
+gostack-root [gs-component="accordion"] .gs-accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background: none;
+    border: none;
+    color: #1e293b;
+    cursor: pointer;
+    text-align: left;
+}
+gostack-root [gs-component="accordion"] .gs-accordion-content {
+    padding: 0 1rem 1rem 1rem;
+    color: #475569;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+gostack-root [gs-component="accordion"] .gs-accordion-icon {
+    transition: transform 0.2s ease;
+}
+gostack-root [gs-component="accordion"] .gs-accordion-icon.rotated {
+    transform: rotate(180deg);
+}

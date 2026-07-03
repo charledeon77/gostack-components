@@ -1,0 +1,2 @@
+// Package hero
+package hero

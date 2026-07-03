@@ -1,0 +1,12 @@
+<div gs-component="dropdown" gs-data='{"open": false}'>
+    <button class="gs-dropdown-trigger" gs-click="open = !open">
+        <span>Options</span>
+        <span class="gs-arrow">&darr;</span>
+    </button>
+    <div class="gs-dropdown-menu" gs-show="open" gs-transition>
+        <a class="gs-dropdown-item" href="#profile" gs-click="open = false">My Profile</a>
+        <a class="gs-dropdown-item" href="#settings" gs-click="open = false">Settings</a>
+        <div class="gs-dropdown-divider"></div>
+        <a class="gs-dropdown-item gs-danger" href="#logout" gs-click="open = false">Log Out</a>
+    </div>
+</div>

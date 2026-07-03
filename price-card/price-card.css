@@ -1,0 +1,49 @@
+gostack-root [gs-component="price-card"] .gs-price-box {
+    padding: 2rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    background: #ffffff;
+    max-width: 320px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+}
+gostack-root [gs-component="price-card"] .gs-tier-name {
+    margin: 0;
+    color: #6366f1;
+    font-size: 0.875rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+gostack-root [gs-component="price-card"] .gs-amount-row {
+    margin: 1rem 0;
+    display: flex;
+    align-items: baseline;
+}
+gostack-root [gs-component="price-card"] .gs-price-number {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #0f172a;
+}
+gostack-root [gs-component="price-card"] .gs-currency {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #0f172a;
+}
+gostack-root [gs-component="price-card"] .gs-period {
+    color: #64748b;
+    font-size: 0.875rem;
+}
+gostack-root [gs-component="price-card"] .gs-desc {
+    color: #475569;
+    font-size: 0.875rem;
+    margin-bottom: 2rem;
+}
+gostack-root [gs-component="price-card"] .gs-buy-btn {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    background: #0f172a;
+    color: #ffffff;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}

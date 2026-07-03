@@ -1,0 +1,2 @@
+// Package sidebar
+package sidebar

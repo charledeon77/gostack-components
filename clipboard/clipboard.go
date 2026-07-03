@@ -1,0 +1,2 @@
+// Package clipboard
+package clipboard

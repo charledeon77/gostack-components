@@ -1,0 +1,22 @@
+gostack-root [gs-component="quiz"] {
+    display: block;
+    font-family: 'Inter', sans-serif;
+}
+gostack-root [gs-component="quiz"] .gs-quiz-box {
+    padding: 1.5rem;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    max-width: 400px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+gostack-root [gs-component="quiz"] h3 {
+    margin: 0 0 0.5rem 0;
+    color: #0f172a;
+    font-size: 1.125rem;
+}
+gostack-root [gs-component="quiz"] p {
+    margin: 0;
+    color: #475569;
+    font-size: 0.875rem;
+}

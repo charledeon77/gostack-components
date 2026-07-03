@@ -1,0 +1,18 @@
+<div gs-component="carousel" gs-data='{"index": 0}'>
+    <div class="gs-carousel-slides">
+        <div class="gs-slide" gs-show="index === 0" gs-transition>
+            <div class="gs-slide-content gs-bg-indigo">Slide One</div>
+        </div>
+        <div class="gs-slide" gs-show="index === 1" gs-transition>
+            <div class="gs-slide-content gs-bg-purple">Slide Two</div>
+        </div>
+        <div class="gs-slide" gs-show="index === 2" gs-transition>
+            <div class="gs-slide-content gs-bg-slate">Slide Three</div>
+        </div>
+    </div>
+    <div class="gs-carousel-controls">
+        <button gs-click="index = index === 0 ? 2 : index - 1">&larr;</button>
+        <span gs-text="(index + 1) + ' / 3'">1 / 3</span>
+        <button gs-click="index = index === 2 ? 0 : index + 1">&rarr;</button>
+    </div>
+</div>

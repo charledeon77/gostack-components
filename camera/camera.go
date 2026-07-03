@@ -1,0 +1,2 @@
+// Package camera
+package camera

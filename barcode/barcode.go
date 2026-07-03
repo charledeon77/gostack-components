@@ -1,0 +1,2 @@
+// Package barcode
+package barcode

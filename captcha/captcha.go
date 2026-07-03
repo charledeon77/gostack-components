@@ -1,0 +1,2 @@
+// Package captcha
+package captcha

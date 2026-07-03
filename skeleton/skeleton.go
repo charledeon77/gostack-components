@@ -1,0 +1,2 @@
+// Package skeleton
+package skeleton

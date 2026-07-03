@@ -1,0 +1,34 @@
+gostack-root [gs-component="carousel"] {
+    max-width: 500px;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+}
+gostack-root [gs-component="carousel"] .gs-slide-content {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+gostack-root [gs-component="carousel"] .gs-bg-indigo { background: #6366f1; }
+gostack-root [gs-component="carousel"] .gs-bg-purple { background: #a855f7; }
+gostack-root [gs-component="carousel"] .gs-bg-slate { background: #475569; }
+gostack-root [gs-component="carousel"] .gs-carousel-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    background: #ffffff;
+}
+gostack-root [gs-component="carousel"] button {
+    border: none;
+    background: #cbd5e1;
+    cursor: pointer;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    font-weight: bold;
+}

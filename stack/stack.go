@@ -1,0 +1,2 @@
+// Package stack
+package stack

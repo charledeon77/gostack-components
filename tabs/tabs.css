@@ -1,0 +1,31 @@
+gostack-root [gs-component="tabs"] {
+    max-width: 600px;
+    background: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+gostack-root [gs-component="tabs"] .gs-tabs-nav {
+    display: flex;
+    border-bottom: 1px solid #e2e8f0;
+}
+gostack-root [gs-component="tabs"] .gs-tab-btn {
+    flex: 1;
+    padding: 0.75rem 1rem;
+    background: none;
+    border: none;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    font-weight: 500;
+    color: #64748b;
+    transition: all 0.2s;
+}
+gostack-root [gs-component="tabs"] .gs-tab-btn.active {
+    color: #6366f1;
+    border-bottom-color: #6366f1;
+}
+gostack-root [gs-component="tabs"] .gs-tabs-content {
+    padding: 1.5rem;
+    color: #334155;
+    font-size: 0.875rem;
+}

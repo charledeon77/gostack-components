@@ -1,0 +1,20 @@
+<div gs-component="accordion" gs-data='{"active": null}'>
+    <div class="gs-accordion-item">
+        <button class="gs-accordion-header" gs-click="active = (active === 0 ? null : 0)">
+            <span>What is GoStack?</span>
+            <span class="gs-accordion-icon" gs-class='{"rotated": active === 0}'>&darr;</span>
+        </button>
+        <div class="gs-accordion-content" gs-show="active === 0" gs-transition>
+            <p>GoStack is a modern, compiled, battery-included web framework built for Go.</p>
+        </div>
+    </div>
+    <div class="gs-accordion-item">
+        <button class="gs-accordion-header" gs-click="active = (active === 1 ? null : 1)">
+            <span>What is GlideJS?</span>
+            <span class="gs-accordion-icon" gs-class='{"rotated": active === 1}'>&darr;</span>
+        </button>
+        <div class="gs-accordion-content" gs-show="active === 1" gs-transition>
+            <p>GlideJS is GoStack's robust, proxy-based client-side reactivity engine.</p>
+        </div>
+    </div>
+</div>

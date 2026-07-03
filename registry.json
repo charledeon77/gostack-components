@@ -1,0 +1,706 @@
+{
+  "version": "1.0.0",
+  "components": {
+    "accordion": {
+      "files": [
+        "accordion/accordion.html",
+        "accordion/accordion.css"
+      ],
+      "dependencies": null
+    },
+    "alert": {
+      "files": [
+        "alert/alert.html",
+        "alert/alert.css"
+      ],
+      "dependencies": null
+    },
+    "audio-player": {
+      "files": [
+        "audio-player/audio-player.html",
+        "audio-player/audio-player.css"
+      ],
+      "dependencies": null
+    },
+    "autocomplete": {
+      "files": [
+        "autocomplete/autocomplete.html",
+        "autocomplete/autocomplete.css"
+      ],
+      "dependencies": null
+    },
+    "avatar": {
+      "files": [
+        "avatar/avatar.html",
+        "avatar/avatar.css"
+      ],
+      "dependencies": null
+    },
+    "backdrop": {
+      "files": [
+        "backdrop/backdrop.html",
+        "backdrop/backdrop.css"
+      ],
+      "dependencies": null
+    },
+    "badge": {
+      "files": [
+        "badge/badge.html",
+        "badge/badge.css"
+      ],
+      "dependencies": null
+    },
+    "barcode": {
+      "files": [
+        "barcode/barcode.html",
+        "barcode/barcode.css"
+      ],
+      "dependencies": null
+    },
+    "breadcrumb": {
+      "files": [
+        "breadcrumb/breadcrumb.html",
+        "breadcrumb/breadcrumb.css"
+      ],
+      "dependencies": null
+    },
+    "button": {
+      "files": [
+        "button/button.html",
+        "button/button.css"
+      ],
+      "dependencies": null
+    },
+    "calendar": {
+      "files": [
+        "calendar/calendar.html",
+        "calendar/calendar.css"
+      ],
+      "dependencies": null
+    },
+    "camera": {
+      "files": [
+        "camera/camera.html",
+        "camera/camera.css"
+      ],
+      "dependencies": null
+    },
+    "captcha": {
+      "files": [
+        "captcha/captcha.html",
+        "captcha/captcha.css"
+      ],
+      "dependencies": null
+    },
+    "card": {
+      "files": [
+        "card/card.html",
+        "card/card.css"
+      ],
+      "dependencies": null
+    },
+    "carousel": {
+      "files": [
+        "carousel/carousel.html",
+        "carousel/carousel.css"
+      ],
+      "dependencies": null
+    },
+    "chart": {
+      "files": [
+        "chart/chart.html",
+        "chart/chart.css"
+      ],
+      "dependencies": null
+    },
+    "checkbox": {
+      "files": [
+        "checkbox/checkbox.html",
+        "checkbox/checkbox.css"
+      ],
+      "dependencies": null
+    },
+    "chip-input": {
+      "files": [
+        "chip-input/chip-input.html",
+        "chip-input/chip-input.css"
+      ],
+      "dependencies": null
+    },
+    "clipboard": {
+      "files": [
+        "clipboard/clipboard.html",
+        "clipboard/clipboard.css"
+      ],
+      "dependencies": null
+    },
+    "color-picker": {
+      "files": [
+        "color-picker/color-picker.html",
+        "color-picker/color-picker.css"
+      ],
+      "dependencies": null
+    },
+    "color-swatch": {
+      "files": [
+        "color-swatch/color-swatch.html",
+        "color-swatch/color-swatch.css"
+      ],
+      "dependencies": null
+    },
+    "comment-box": {
+      "files": [
+        "comment-box/comment-box.html",
+        "comment-box/comment-box.css"
+      ],
+      "dependencies": null
+    },
+    "container": {
+      "files": [
+        "container/container.html",
+        "container/container.css"
+      ],
+      "dependencies": null
+    },
+    "context-menu": {
+      "files": [
+        "context-menu/context-menu.html",
+        "context-menu/context-menu.css"
+      ],
+      "dependencies": null
+    },
+    "credit-card-form": {
+      "files": [
+        "credit-card-form/credit-card-form.html",
+        "credit-card-form/credit-card-form.css"
+      ],
+      "dependencies": null
+    },
+    "dashboard-widget": {
+      "files": [
+        "dashboard-widget/dashboard-widget.html",
+        "dashboard-widget/dashboard-widget.css"
+      ],
+      "dependencies": null
+    },
+    "date-picker": {
+      "files": [
+        "date-picker/date-picker.html",
+        "date-picker/date-picker.css"
+      ],
+      "dependencies": null
+    },
+    "divider": {
+      "files": [
+        "divider/divider.html",
+        "divider/divider.css"
+      ],
+      "dependencies": null
+    },
+    "drawer": {
+      "files": [
+        "drawer/drawer.html",
+        "drawer/drawer.css"
+      ],
+      "dependencies": null
+    },
+    "dropdown": {
+      "files": [
+        "dropdown/dropdown.html",
+        "dropdown/dropdown.css"
+      ],
+      "dependencies": null
+    },
+    "editor": {
+      "files": [
+        "editor/editor.html",
+        "editor/editor.css"
+      ],
+      "dependencies": null
+    },
+    "file-upload": {
+      "files": [
+        "file-upload/file-upload.html",
+        "file-upload/file-upload.css"
+      ],
+      "dependencies": null
+    },
+    "focus-trap": {
+      "files": [
+        "focus-trap/focus-trap.html",
+        "focus-trap/focus-trap.css"
+      ],
+      "dependencies": null
+    },
+    "footer": {
+      "files": [
+        "footer/footer.html",
+        "footer/footer.css"
+      ],
+      "dependencies": null
+    },
+    "form-group": {
+      "files": [
+        "form-group/form-group.html",
+        "form-group/form-group.css"
+      ],
+      "dependencies": null
+    },
+    "grid": {
+      "files": [
+        "grid/grid.html",
+        "grid/grid.css"
+      ],
+      "dependencies": null
+    },
+    "header": {
+      "files": [
+        "header/header.html",
+        "header/header.css"
+      ],
+      "dependencies": null
+    },
+    "hero": {
+      "files": [
+        "hero/hero.html",
+        "hero/hero.css"
+      ],
+      "dependencies": null
+    },
+    "hidden-input": {
+      "files": [
+        "hidden-input/hidden-input.html",
+        "hidden-input/hidden-input.css"
+      ],
+      "dependencies": null
+    },
+    "input": {
+      "files": [
+        "input/input.html",
+        "input/input.css"
+      ],
+      "dependencies": null
+    },
+    "intersection-observer": {
+      "files": [
+        "intersection-observer/intersection-observer.html",
+        "intersection-observer/intersection-observer.css"
+      ],
+      "dependencies": null
+    },
+    "keyboard-shortcut": {
+      "files": [
+        "keyboard-shortcut/keyboard-shortcut.html",
+        "keyboard-shortcut/keyboard-shortcut.css"
+      ],
+      "dependencies": null
+    },
+    "label": {
+      "files": [
+        "label/label.html",
+        "label/label.css"
+      ],
+      "dependencies": null
+    },
+    "link": {
+      "files": [
+        "link/link.html",
+        "link/link.css"
+      ],
+      "dependencies": null
+    },
+    "list": {
+      "files": [
+        "list/list.html",
+        "list/list.css"
+      ],
+      "dependencies": null
+    },
+    "map": {
+      "files": [
+        "map/map.html",
+        "map/map.css"
+      ],
+      "dependencies": null
+    },
+    "menu": {
+      "files": [
+        "menu/menu.html",
+        "menu/menu.css"
+      ],
+      "dependencies": null
+    },
+    "modal": {
+      "files": [
+        "modal/modal.html",
+        "modal/modal.css"
+      ],
+      "dependencies": null
+    },
+    "multi-select": {
+      "files": [
+        "multi-select/multi-select.html",
+        "multi-select/multi-select.css"
+      ],
+      "dependencies": null
+    },
+    "navbar": {
+      "files": [
+        "navbar/navbar.html",
+        "navbar/navbar.css"
+      ],
+      "dependencies": null
+    },
+    "number-input": {
+      "files": [
+        "number-input/number-input.html",
+        "number-input/number-input.css"
+      ],
+      "dependencies": null
+    },
+    "otp-input": {
+      "files": [
+        "otp-input/otp-input.html",
+        "otp-input/otp-input.css",
+        "otp-input/otp-input.js"
+      ],
+      "dependencies": null
+    },
+    "pagination": {
+      "files": [
+        "pagination/pagination.html",
+        "pagination/pagination.css"
+      ],
+      "dependencies": null
+    },
+    "password-input": {
+      "files": [
+        "password-input/password-input.html",
+        "password-input/password-input.css"
+      ],
+      "dependencies": null
+    },
+    "phone-input": {
+      "files": [
+        "phone-input/phone-input.html",
+        "phone-input/phone-input.css"
+      ],
+      "dependencies": null
+    },
+    "poll": {
+      "files": [
+        "poll/poll.html",
+        "poll/poll.css"
+      ],
+      "dependencies": null
+    },
+    "portal": {
+      "files": [
+        "portal/portal.html",
+        "portal/portal.css"
+      ],
+      "dependencies": null
+    },
+    "price-card": {
+      "files": [
+        "price-card/price-card.html",
+        "price-card/price-card.css"
+      ],
+      "dependencies": null
+    },
+    "progress": {
+      "files": [
+        "progress/progress.html",
+        "progress/progress.css"
+      ],
+      "dependencies": null
+    },
+    "qr-code": {
+      "files": [
+        "qr-code/qr-code.html",
+        "qr-code/qr-code.css"
+      ],
+      "dependencies": null
+    },
+    "quiz": {
+      "files": [
+        "quiz/quiz.html",
+        "quiz/quiz.css"
+      ],
+      "dependencies": null
+    },
+    "radio": {
+      "files": [
+        "radio/radio.html",
+        "radio/radio.css"
+      ],
+      "dependencies": null
+    },
+    "range": {
+      "files": [
+        "range/range.html",
+        "range/range.css"
+      ],
+      "dependencies": null
+    },
+    "range-calendar": {
+      "files": [
+        "range-calendar/range-calendar.html",
+        "range-calendar/range-calendar.css"
+      ],
+      "dependencies": null
+    },
+    "rating": {
+      "files": [
+        "rating/rating.html",
+        "rating/rating.css"
+      ],
+      "dependencies": null
+    },
+    "rating-star": {
+      "files": [
+        "rating-star/rating-star.html",
+        "rating-star/rating-star.css"
+      ],
+      "dependencies": null
+    },
+    "reset-button": {
+      "files": [
+        "reset-button/reset-button.html",
+        "reset-button/reset-button.css"
+      ],
+      "dependencies": null
+    },
+    "resize-observer": {
+      "files": [
+        "resize-observer/resize-observer.html",
+        "resize-observer/resize-observer.css"
+      ],
+      "dependencies": null
+    },
+    "scroll-spy": {
+      "files": [
+        "scroll-spy/scroll-spy.html",
+        "scroll-spy/scroll-spy.css"
+      ],
+      "dependencies": null
+    },
+    "search": {
+      "files": [
+        "search/search.html",
+        "search/search.css"
+      ],
+      "dependencies": null
+    },
+    "section": {
+      "files": [
+        "section/section.html",
+        "section/section.css"
+      ],
+      "dependencies": null
+    },
+    "select": {
+      "files": [
+        "select/select.html",
+        "select/select.css"
+      ],
+      "dependencies": null
+    },
+    "sidebar": {
+      "files": [
+        "sidebar/sidebar.html",
+        "sidebar/sidebar.css"
+      ],
+      "dependencies": null
+    },
+    "signature": {
+      "files": [
+        "signature/signature.html",
+        "signature/signature.css"
+      ],
+      "dependencies": null
+    },
+    "signature-pad": {
+      "files": [
+        "signature-pad/signature-pad.html",
+        "signature-pad/signature-pad.css"
+      ],
+      "dependencies": null
+    },
+    "skeleton": {
+      "files": [
+        "skeleton/skeleton.html",
+        "skeleton/skeleton.css"
+      ],
+      "dependencies": null
+    },
+    "slider": {
+      "files": [
+        "slider/slider.html",
+        "slider/slider.css"
+      ],
+      "dependencies": null
+    },
+    "social-share": {
+      "files": [
+        "social-share/social-share.html",
+        "social-share/social-share.css"
+      ],
+      "dependencies": null
+    },
+    "spinner": {
+      "files": [
+        "spinner/spinner.html",
+        "spinner/spinner.css"
+      ],
+      "dependencies": null
+    },
+    "stack": {
+      "files": [
+        "stack/stack.html",
+        "stack/stack.css"
+      ],
+      "dependencies": null
+    },
+    "status": {
+      "files": [
+        "status/status.html",
+        "status/status.css"
+      ],
+      "dependencies": null
+    },
+    "stepper": {
+      "files": [
+        "stepper/stepper.html",
+        "stepper/stepper.css"
+      ],
+      "dependencies": null
+    },
+    "submit-button": {
+      "files": [
+        "submit-button/submit-button.html",
+        "submit-button/submit-button.css"
+      ],
+      "dependencies": null
+    },
+    "survey": {
+      "files": [
+        "survey/survey.html",
+        "survey/survey.css"
+      ],
+      "dependencies": null
+    },
+    "switch": {
+      "files": [
+        "switch/switch.html",
+        "switch/switch.css"
+      ],
+      "dependencies": null
+    },
+    "table": {
+      "files": [
+        "table/table.html",
+        "table/table.css"
+      ],
+      "dependencies": null
+    },
+    "tabs": {
+      "files": [
+        "tabs/tabs.html",
+        "tabs/tabs.css"
+      ],
+      "dependencies": null
+    },
+    "tag": {
+      "files": [
+        "tag/tag.html",
+        "tag/tag.css"
+      ],
+      "dependencies": null
+    },
+    "textarea": {
+      "files": [
+        "textarea/textarea.html",
+        "textarea/textarea.css"
+      ],
+      "dependencies": null
+    },
+    "theme-toggle": {
+      "files": [
+        "theme-toggle/theme-toggle.html",
+        "theme-toggle/theme-toggle.css"
+      ],
+      "dependencies": null
+    },
+    "time-picker": {
+      "files": [
+        "time-picker/time-picker.html",
+        "time-picker/time-picker.css"
+      ],
+      "dependencies": null
+    },
+    "timeline": {
+      "files": [
+        "timeline/timeline.html",
+        "timeline/timeline.css"
+      ],
+      "dependencies": null
+    },
+    "toast": {
+      "files": [
+        "toast/toast.html",
+        "toast/toast.css"
+      ],
+      "dependencies": null
+    },
+    "toggle": {
+      "files": [
+        "toggle/toggle.html",
+        "toggle/toggle.css"
+      ],
+      "dependencies": null
+    },
+    "tooltip": {
+      "files": [
+        "tooltip/tooltip.html",
+        "tooltip/tooltip.css"
+      ],
+      "dependencies": null
+    },
+    "topbar": {
+      "files": [
+        "topbar/topbar.html",
+        "topbar/topbar.css"
+      ],
+      "dependencies": null
+    },
+    "transition": {
+      "files": [
+        "transition/transition.html",
+        "transition/transition.css"
+      ],
+      "dependencies": null
+    },
+    "tree": {
+      "files": [
+        "tree/tree.html",
+        "tree/tree.css"
+      ],
+      "dependencies": null
+    },
+    "uploader": {
+      "files": [
+        "uploader/uploader.html",
+        "uploader/uploader.css"
+      ],
+      "dependencies": null
+    },
+    "video-player": {
+      "files": [
+        "video-player/video-player.html",
+        "video-player/video-player.css"
+      ],
+      "dependencies": null
+    }
+  }
+}
