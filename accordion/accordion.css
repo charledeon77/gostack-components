@@ -1,38 +1,56 @@
-gostack-root [gs-component="accordion"] {
-    border: 1px solid #e2e8f0;
-    border-radius: 8px;
-    background: #ffffff;
-    max-width: 500px;
-}
-gostack-root [gs-component="accordion"] .gs-accordion-item {
-    border-bottom: 1px solid #e2e8f0;
-}
-gostack-root [gs-component="accordion"] .gs-accordion-item:last-child {
-    border-bottom: none;
-}
-gostack-root [gs-component="accordion"] .gs-accordion-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 1rem;
-    font-size: 1rem;
-    font-weight: 600;
-    background: none;
-    border: none;
-    color: #1e293b;
-    cursor: pointer;
-    text-align: left;
-}
-gostack-root [gs-component="accordion"] .gs-accordion-content {
-    padding: 0 1rem 1rem 1rem;
-    color: #475569;
-    font-size: 0.875rem;
-    line-height: 1.5;
-}
-gostack-root [gs-component="accordion"] .gs-accordion-icon {
-    transition: transform 0.2s ease;
-}
-gostack-root [gs-component="accordion"] .gs-accordion-icon.rotated {
-    transform: rotate(180deg);
-}
+.gostack-components-accordion {
+      width: 100%;
+      max-width: 500px;
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+    }
+    .gostack-components-accordion-item {
+      border-bottom: 1px solid var(--border-color);
+    }
+    .gostack-components-accordion-item:last-child {
+      border-bottom: none;
+    }
+    .gostack-components-accordion-trigger {
+      width: 100%;
+      background: transparent;
+      border: none;
+      padding: 18px 20px;
+      text-align: left;
+      color: var(--text-primary);
+      font-family: var(--font-sans);
+      font-weight: 600;
+      font-size: 15px;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: var(--transition);
+    }
+    .gostack-components-accordion-trigger:hover {
+      background: rgba(255, 255, 255, 0.02);
+    }
+    .gostack-components-accordion-icon {
+      transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      color: var(--text-muted);
+    }
+    .gostack-components-accordion-content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      background: rgba(0, 0, 0, 0.1);
+    }
+    .gostack-components-accordion-content-inner {
+      padding: 0 20px 20px 20px;
+      color: var(--text-secondary);
+      font-size: 14px;
+      line-height: 1.6;
+    }
+    .gostack-components-accordion-item.active .gostack-components-accordion-content {
+      max-height: 200px;
+    }
+    .gostack-components-accordion-item.active .gostack-components-accordion-icon {
+      transform: rotate(180deg);
+      color: var(--accent);
+    }

@@ -1,22 +1,38 @@
-gostack-root [gs-component="camera"] {
-    display: block;
-    font-family: 'Inter', sans-serif;
-}
-gostack-root [gs-component="camera"] .gs-camera-box {
-    padding: 1.5rem;
-    background: #ffffff;
-    border: 1px solid #e2e8f0;
-    border-radius: 8px;
-    max-width: 400px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-}
-gostack-root [gs-component="camera"] h3 {
-    margin: 0 0 0.5rem 0;
-    color: #0f172a;
-    font-size: 1.125rem;
-}
-gostack-root [gs-component="camera"] p {
-    margin: 0;
-    color: #475569;
-    font-size: 0.875rem;
-}
+.gostack-components-camera-mock {
+      background: #000;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      width: 320px;
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .gostack-components-camera-lens {
+      width: 60px;
+      height: 60px;
+      border-radius: var(--radius-full);
+      border: 4px solid var(--border-color-hover);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .gostack-components-camera-lens-inner {
+      width: 20px;
+      height: 20px;
+      border-radius: var(--radius-full);
+      background: var(--accent);
+      box-shadow: 0 0 10px var(--accent);
+    }
+    .gostack-components-camera-overlay {
+      position: absolute;
+      bottom: 12px;
+      font-size: 12px;
+      color: var(--text-secondary);
+      background: rgba(0, 0, 0, 0.6);
+      padding: 4px 12px;
+      border-radius: var(--radius-full);
+    }

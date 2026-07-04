@@ -1,11 +1,38 @@
-gostack-root [gs-component="avatar"] .gs-avatar-container {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    overflow: hidden;
-}
-gostack-root [gs-component="avatar"] .gs-avatar-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+.gostack-components-avatar-group {
+      display: flex;
+      align-items: center;
+    }
+    .gostack-components-avatar {
+      width: 44px;
+      height: 44px;
+      border-radius: var(--radius-full);
+      border: 2px solid var(--bg-surface);
+      background: var(--bg-surface-elevated);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 14px;
+      color: var(--text-primary);
+      margin-left: -12px;
+      position: relative;
+      transition: var(--transition);
+      cursor: pointer;
+    }
+    .gostack-components-avatar:first-child {
+      margin-left: 0;
+    }
+    .gostack-components-avatar:hover {
+      transform: translateY(-4px);
+      z-index: 5;
+    }
+    .gostack-components-avatar-status {
+      position: absolute;
+      bottom: 2px;
+      right: 2px;
+      width: 10px;
+      height: 10px;
+      border-radius: var(--radius-full);
+      background: var(--success);
+      border: 2px solid var(--bg-surface);
+    }

@@ -1,22 +1,21 @@
-gostack-root [gs-component="color-picker"] {
-    display: block;
-    font-family: 'Inter', sans-serif;
-}
-gostack-root [gs-component="color-picker"] .gs-color-picker-box {
-    padding: 1.5rem;
-    background: #ffffff;
-    border: 1px solid #e2e8f0;
-    border-radius: 8px;
-    max-width: 400px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-}
-gostack-root [gs-component="color-picker"] h3 {
-    margin: 0 0 0.5rem 0;
-    color: #0f172a;
-    font-size: 1.125rem;
-}
-gostack-root [gs-component="color-picker"] p {
-    margin: 0;
-    color: #475569;
-    font-size: 0.875rem;
-}
+.gostack-components-color-picker {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .gostack-components-color-input {
+      -webkit-appearance: none;
+      border: none;
+      width: 44px;
+      height: 44px;
+      border-radius: var(--radius-full);
+      cursor: pointer;
+      background: transparent;
+    }
+    .gostack-components-color-input::-webkit-color-swatch-wrapper {
+      padding: 0;
+    }
+    .gostack-components-color-input::-webkit-color-swatch {
+      border: 2px solid var(--border-color-hover);
+      border-radius: var(--radius-full);
+    }

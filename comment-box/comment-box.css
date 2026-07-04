@@ -1,22 +1,27 @@
-gostack-root [gs-component="comment-box"] {
-    display: block;
-    font-family: 'Inter', sans-serif;
-}
-gostack-root [gs-component="comment-box"] .gs-comment-box-box {
-    padding: 1.5rem;
-    background: #ffffff;
-    border: 1px solid #e2e8f0;
-    border-radius: 8px;
-    max-width: 400px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-}
-gostack-root [gs-component="comment-box"] h3 {
-    margin: 0 0 0.5rem 0;
-    color: #0f172a;
-    font-size: 1.125rem;
-}
-gostack-root [gs-component="comment-box"] p {
-    margin: 0;
-    color: #475569;
-    font-size: 0.875rem;
-}
+.gostack-components-comment-box {
+      width: 100%;
+      max-width: 450px;
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 16px;
+    }
+    .gostack-components-comment-textarea {
+      width: 100%;
+      height: 80px;
+      background: transparent;
+      border: none;
+      color: var(--text-primary);
+      outline: none;
+      resize: none;
+      font-family: var(--font-sans);
+      font-size: 14px;
+    }
+    .gostack-components-comment-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid var(--border-color);
+      padding-top: 12px;
+      margin-top: 12px;
+    }

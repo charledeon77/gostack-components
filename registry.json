@@ -4,7 +4,8 @@
     "accordion": {
       "files": [
         "accordion/accordion.html",
-        "accordion/accordion.css"
+        "accordion/accordion.css",
+        "accordion/accordion.js"
       ],
       "dependencies": null
     },
@@ -39,7 +40,8 @@
     "backdrop": {
       "files": [
         "backdrop/backdrop.html",
-        "backdrop/backdrop.css"
+        "backdrop/backdrop.css",
+        "backdrop/backdrop.js"
       ],
       "dependencies": null
     },
@@ -130,7 +132,8 @@
     "clipboard": {
       "files": [
         "clipboard/clipboard.html",
-        "clipboard/clipboard.css"
+        "clipboard/clipboard.css",
+        "clipboard/clipboard.js"
       ],
       "dependencies": null
     },
@@ -354,7 +357,8 @@
     "number-input": {
       "files": [
         "number-input/number-input.html",
-        "number-input/number-input.css"
+        "number-input/number-input.css",
+        "number-input/number-input.js"
       ],
       "dependencies": null
     },

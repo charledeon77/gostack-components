@@ -1,22 +1,19 @@
-gostack-root [gs-component="dashboard-widget"] {
-    display: block;
-    font-family: 'Inter', sans-serif;
-}
-gostack-root [gs-component="dashboard-widget"] .gs-dashboard-widget-box {
-    padding: 1.5rem;
-    background: #ffffff;
-    border: 1px solid #e2e8f0;
-    border-radius: 8px;
-    max-width: 400px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-}
-gostack-root [gs-component="dashboard-widget"] h3 {
-    margin: 0 0 0.5rem 0;
-    color: #0f172a;
-    font-size: 1.125rem;
-}
-gostack-root [gs-component="dashboard-widget"] p {
-    margin: 0;
-    color: #475569;
-    font-size: 0.875rem;
-}
+.gostack-components-widget {
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 20px;
+      width: 240px;
+    }
+    .gostack-components-widget-value {
+      font-size: 28px;
+      font-weight: 800;
+      margin: 12px 0 4px 0;
+    }
+    .gostack-components-widget-change {
+      font-size: 12px;
+      color: var(--success);
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }

@@ -1,6 +1,9 @@
-<div gs-component="autocomplete">
-    <div class="gs-autocomplete-box">
-        <h3>Component: Autocomplete</h3>
-        <p>Premium UI building block for the GoStack framework.</p>
-    </div>
-</div>
+<!-- #7 Autocomplete HTML -->
+            <div class="gostack-components-autocomplete">
+              <input type="text" class="gostack-components-autocomplete-input" placeholder="Search technology..." onfocus="document.getElementById('auto-list').style.display='block'" onblur="setTimeout(() => document.getElementById('auto-list').style.display='none', 200)">
+              <div class="gostack-components-autocomplete-list" id="auto-list">
+                <div class="gostack-components-autocomplete-item">Artificial Intelligence</div>
+                <div class="gostack-components-autocomplete-item">Automated Systems</div>
+                <div class="gostack-components-autocomplete-item">Atomic Design Patterns</div>
+              </div>
+            </div>

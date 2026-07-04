@@ -1,10 +1,8 @@
-gostack-root [gs-component="theme-toggle"] .gs-theme-btn {
-    padding: 0.5rem 1rem;
-    background: #e2e8f0;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-weight: 600;
-    color: #0f172a;
-    transition: all 0.2s;
-}
+.gostack-components-theme-btn {
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border-color);
+      color: white;
+      padding: 8px 16px;
+      border-radius: var(--radius-full);
+      cursor: pointer;
+    }

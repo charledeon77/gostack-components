@@ -1,22 +1,44 @@
-gostack-root [gs-component="autocomplete"] {
-    display: block;
-    font-family: 'Inter', sans-serif;
-}
-gostack-root [gs-component="autocomplete"] .gs-autocomplete-box {
-    padding: 1.5rem;
-    background: #ffffff;
-    border: 1px solid #e2e8f0;
-    border-radius: 8px;
-    max-width: 400px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-}
-gostack-root [gs-component="autocomplete"] h3 {
-    margin: 0 0 0.5rem 0;
-    color: #0f172a;
-    font-size: 1.125rem;
-}
-gostack-root [gs-component="autocomplete"] p {
-    margin: 0;
-    color: #475569;
-    font-size: 0.875rem;
-}
+.gostack-components-autocomplete {
+      position: relative;
+      width: 100%;
+      max-width: 320px;
+    }
+    .gostack-components-autocomplete-input {
+      width: 100%;
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 12px 16px;
+      color: var(--text-primary);
+      font-family: var(--font-sans);
+      outline: none;
+      transition: var(--transition);
+    }
+    .gostack-components-autocomplete-input:focus {
+      border-color: var(--accent);
+    }
+    .gostack-components-autocomplete-list {
+      position: absolute;
+      top: 105%;
+      left: 0;
+      right: 0;
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      z-index: 10;
+      max-height: 200px;
+      overflow-y: auto;
+      display: none;
+      box-shadow: 0 10px 25px -5px rgba(0,0,0,0.5);
+    }
+    .gostack-components-autocomplete-item {
+      padding: 10px 16px;
+      font-size: 14px;
+      color: var(--text-secondary);
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    .gostack-components-autocomplete-item:hover {
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text-primary);
+    }

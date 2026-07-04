@@ -1,16 +1,4 @@
-gostack-root [gs-component="rating-star"] {
-    display: inline-block;
-}
-gostack-root [gs-component="rating-star"] .gs-stars-container {
-    display: flex;
-    gap: 0.25rem;
-}
-gostack-root [gs-component="rating-star"] .gs-star {
-    font-size: 1.75rem;
-    color: #e2e8f0;
-    cursor: pointer;
-    transition: color 0.15s ease;
-}
-gostack-root [gs-component="rating-star"] .gs-star.filled {
-    color: #eab308;
-}
+.gostack-components-star {
+      color: var(--warning);
+      font-size: 20px;
+    }

@@ -1,42 +1,25 @@
-gostack-root [gs-component="switch"] {
-    display: inline-block;
-}
-gostack-root [gs-component="switch"] .gs-switch-label {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    cursor: pointer;
-}
-gostack-root [gs-component="switch"] .gs-switch-text {
-    font-size: 0.875rem;
-    font-weight: 500;
-    color: #334155;
-    width: 60px;
-}
-gostack-root [gs-component="switch"] .gs-switch-track {
-    position: relative;
-    width: 44px;
-    height: 24px;
-    background-color: #cbd5e1;
-    border-radius: 9999px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.2s;
-}
-gostack-root [gs-component="switch"] .gs-switch-track.active {
-    background-color: #6366f1;
-}
-gostack-root [gs-component="switch"] .gs-switch-thumb {
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    width: 20px;
-    height: 20px;
-    background-color: #ffffff;
-    border-radius: 50%;
-    transition: transform 0.2s;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
-}
-gostack-root [gs-component="switch"] .gs-switch-thumb.active {
-    transform: translateX(20px);
-}
+.gostack-components-switch {
+      position: relative;
+      width: 44px;
+      height: 24px;
+      background: var(--border-color-hover);
+      border-radius: var(--radius-full);
+      cursor: pointer;
+    }
+    .gostack-components-switch::after {
+      content: "";
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      width: 20px;
+      height: 20px;
+      background: white;
+      border-radius: 50%;
+      transition: var(--transition);
+    }
+    .gostack-components-switch.active {
+      background: var(--accent);
+    }
+    .gostack-components-switch.active::after {
+      left: 22px;
+    }

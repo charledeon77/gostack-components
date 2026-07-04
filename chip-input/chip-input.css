@@ -1,22 +1,27 @@
-gostack-root [gs-component="chip-input"] {
-    display: block;
-    font-family: 'Inter', sans-serif;
-}
-gostack-root [gs-component="chip-input"] .gs-chip-input-box {
-    padding: 1.5rem;
-    background: #ffffff;
-    border: 1px solid #e2e8f0;
-    border-radius: 8px;
-    max-width: 400px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-}
-gostack-root [gs-component="chip-input"] h3 {
-    margin: 0 0 0.5rem 0;
-    color: #0f172a;
-    font-size: 1.125rem;
-}
-gostack-root [gs-component="chip-input"] p {
-    margin: 0;
-    color: #475569;
-    font-size: 0.875rem;
-}
+.gostack-components-chip-input {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 8px;
+      max-width: 320px;
+    }
+    .gostack-components-chip {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid var(--border-color);
+      padding: 4px 10px;
+      border-radius: var(--radius-full);
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .gostack-components-chip-close {
+      cursor: pointer;
+      opacity: 0.6;
+    }
+    .gostack-components-chip-close:hover {
+      opacity: 1;
+    }

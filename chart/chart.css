@@ -1,22 +1,26 @@
-gostack-root [gs-component="chart"] {
-    display: block;
-    font-family: 'Inter', sans-serif;
-}
-gostack-root [gs-component="chart"] .gs-chart-box {
-    padding: 1.5rem;
-    background: #ffffff;
-    border: 1px solid #e2e8f0;
-    border-radius: 8px;
-    max-width: 400px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-}
-gostack-root [gs-component="chart"] h3 {
-    margin: 0 0 0.5rem 0;
-    color: #0f172a;
-    font-size: 1.125rem;
-}
-gostack-root [gs-component="chart"] p {
-    margin: 0;
-    color: #475569;
-    font-size: 0.875rem;
-}
+.gostack-components-chart {
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 20px;
+      width: 320px;
+    }
+    .gostack-components-chart-bars {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-around;
+      height: 120px;
+      margin-top: 16px;
+    }
+    .gostack-components-chart-bar-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+    .gostack-components-chart-bar {
+      width: 24px;
+      background: linear-gradient(180deg, var(--accent) 0%, rgba(99, 102, 241, 0.2) 100%);
+      border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+      transition: height 1s ease-out;
+    }

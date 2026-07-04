@@ -1,19 +1,16 @@
-gostack-root [gs-component="otp-input"] .gs-otp-container {
-    display: flex;
-    gap: 0.5rem;
-}
-gostack-root [gs-component="otp-input"] .gs-otp-digit {
-    width: 48px;
-    height: 48px;
-    text-align: center;
-    font-size: 1.25rem;
-    font-weight: bold;
-    border: 1px solid #cbd5e1;
-    border-radius: 8px;
-    outline: none;
-    transition: border-color 0.15s;
-}
-gostack-root [gs-component="otp-input"] .gs-otp-digit:focus {
-    border-color: #6366f1;
-    box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.1);
-}
+.gostack-components-otp {
+      display: flex;
+      gap: 8px;
+    }
+    .gostack-components-otp-field {
+      width: 44px;
+      height: 44px;
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      text-align: center;
+      font-size: 18px;
+      font-weight: 700;
+      color: white;
+      outline: none;
+    }

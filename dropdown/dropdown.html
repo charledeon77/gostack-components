@@ -1,12 +1,8 @@
-<div gs-component="dropdown" gs-data='{"open": false}'>
-    <button class="gs-dropdown-trigger" gs-click="open = !open">
-        <span>Options</span>
-        <span class="gs-arrow">&darr;</span>
-    </button>
-    <div class="gs-dropdown-menu" gs-show="open" gs-transition>
-        <a class="gs-dropdown-item" href="#profile" gs-click="open = false">My Profile</a>
-        <a class="gs-dropdown-item" href="#settings" gs-click="open = false">Settings</a>
-        <div class="gs-dropdown-divider"></div>
-        <a class="gs-dropdown-item gs-danger" href="#logout" gs-click="open = false">Log Out</a>
-    </div>
-</div>
+<!-- #59 Dropdown HTML -->
+            <div class="gostack-components-dropdown">
+              <button class="gostack-components-btn-primary" style="padding: 10px 18px;" onclick="document.getElementById('drop-menu').classList.toggle('show')">Actions ▼</button>
+              <div class="gostack-components-dropdown-menu" id="drop-menu">
+                <span class="component-nav-item">Reboot Network</span>
+                <span class="component-nav-item">Archive Registry</span>
+              </div>
+            </div>

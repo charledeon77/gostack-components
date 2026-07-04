@@ -1,22 +1,27 @@
-gostack-root [gs-component="alert"] {
-    display: block;
-    font-family: 'Inter', sans-serif;
-}
-gostack-root [gs-component="alert"] .gs-alert-box {
-    padding: 1.5rem;
-    background: #ffffff;
-    border: 1px solid #e2e8f0;
-    border-radius: 8px;
-    max-width: 400px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-}
-gostack-root [gs-component="alert"] h3 {
-    margin: 0 0 0.5rem 0;
-    color: #0f172a;
-    font-size: 1.125rem;
-}
-gostack-root [gs-component="alert"] p {
-    margin: 0;
-    color: #475569;
-    font-size: 0.875rem;
-}
+.gostack-components-alert {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 16px;
+      border-radius: var(--radius-md);
+      background: rgba(99, 102, 241, 0.05);
+      border: 1px solid rgba(99, 102, 241, 0.2);
+      max-width: 500px;
+      color: var(--text-primary);
+    }
+    .gostack-components-alert-icon {
+      color: var(--accent);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .gostack-components-alert-content {
+      font-size: 14px;
+    }
+    .gostack-components-alert-title {
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+    .gostack-components-alert-desc {
+      color: var(--text-secondary);
+      line-height: 1.4;
+    }

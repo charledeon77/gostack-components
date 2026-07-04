@@ -1,12 +1,5 @@
-<div gs-component="tabs" gs-data='{"active": 0}'>
-    <div class="gs-tabs-nav">
-        <button class="gs-tab-btn" gs-class='{"active": active === 0}' gs-click="active = 0">Dashboard</button>
-        <button class="gs-tab-btn" gs-class='{"active": active === 1}' gs-click="active = 1">Profile</button>
-        <button class="gs-tab-btn" gs-class='{"active": active === 2}' gs-click="active = 2">Settings</button>
-    </div>
-    <div class="gs-tabs-content">
-        <div gs-show="active === 0" gs-transition>Welcome to your interactive Dashboard panel.</div>
-        <div gs-show="active === 1" gs-transition>Manage user profiles and identity definitions here.</div>
-        <div gs-show="active === 2" gs-transition>Configure application preferences and credentials.</div>
-    </div>
-</div>
+<!-- #173 Tabs HTML -->
+            <div class="gostack-components-tabs">
+              <span class="gostack-components-tab active">Overview</span>
+              <span class="gostack-components-tab">Analytics</span>
+            </div>

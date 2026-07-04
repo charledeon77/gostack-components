@@ -1,34 +1,38 @@
-gostack-root [gs-component="carousel"] {
-    max-width: 500px;
-    border-radius: 8px;
-    overflow: hidden;
-    background: #f8fafc;
-    border: 1px solid #e2e8f0;
-}
-gostack-root [gs-component="carousel"] .gs-slide-content {
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-gostack-root [gs-component="carousel"] .gs-bg-indigo { background: #6366f1; }
-gostack-root [gs-component="carousel"] .gs-bg-purple { background: #a855f7; }
-gostack-root [gs-component="carousel"] .gs-bg-slate { background: #475569; }
-gostack-root [gs-component="carousel"] .gs-carousel-controls {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.75rem 1rem;
-    background: #ffffff;
-}
-gostack-root [gs-component="carousel"] button {
-    border: none;
-    background: #cbd5e1;
-    cursor: pointer;
-    padding: 0.25rem 0.75rem;
-    border-radius: 4px;
-    font-weight: bold;
-}
+.gostack-components-carousel {
+      position: relative;
+      width: 320px;
+      height: 180px;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      border: 1px solid var(--border-color);
+    }
+    .gostack-components-carousel-slide {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, #1e1b4b 0%, #311042 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: 700;
+      font-size: 18px;
+    }
+    .gostack-components-carousel-indicator {
+      position: absolute;
+      bottom: 12px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 6px;
+    }
+    .gostack-components-carousel-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: var(--radius-full);
+      background: rgba(255, 255, 255, 0.4);
+    }
+    .gostack-components-carousel-dot.active {
+      background: #fff;
+      width: 16px;
+      border-radius: var(--radius-full);
+    }

@@ -1,32 +1,10 @@
-gostack-root [gs-component="toast"] {
-    position: fixed;
-    bottom: 1.5rem;
-    right: 1.5rem;
-    z-index: 9999;
-}
-gostack-root [gs-component="toast"] .gs-toast-box {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    background: #0f172a;
-    color: #ffffff;
-    padding: 0.75rem 1rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    font-size: 0.875rem;
-}
-gostack-root [gs-component="toast"] .gs-toast-icon {
-    color: #22c55e;
-    font-weight: bold;
-}
-gostack-root [gs-component="toast"] .gs-toast-close {
-    background: none;
-    border: none;
-    color: #94a3b8;
-    font-size: 1.25rem;
-    cursor: pointer;
-    line-height: 1;
-}
-gostack-root [gs-component="toast"] .gs-toast-close:hover {
-    color: #ffffff;
-}
+.gostack-components-toast {
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border-color-hover);
+      padding: 12px 18px;
+      border-radius: var(--radius-md);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    }

@@ -1,22 +1,17 @@
-gostack-root [gs-component="button"] {
-    display: block;
-    font-family: 'Inter', sans-serif;
-}
-gostack-root [gs-component="button"] .gs-button-box {
-    padding: 1.5rem;
-    background: #ffffff;
-    border: 1px solid #e2e8f0;
-    border-radius: 8px;
-    max-width: 400px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-}
-gostack-root [gs-component="button"] h3 {
-    margin: 0 0 0.5rem 0;
-    color: #0f172a;
-    font-size: 1.125rem;
-}
-gostack-root [gs-component="button"] p {
-    margin: 0;
-    color: #475569;
-    font-size: 0.875rem;
-}
+.gostack-components-btn-primary {
+      background: var(--accent);
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-family: var(--font-sans);
+      font-size: 14px;
+      font-weight: 600;
+      border-radius: var(--radius-md);
+      cursor: pointer;
+      transition: var(--transition);
+      box-shadow: 0 4px 14px var(--accent-glow);
+    }
+    .gostack-components-btn-primary:hover {
+      background: var(--accent-hover);
+      transform: translateY(-1px);
+    }
